@@ -1,0 +1,47 @@
+#selector1{
+    border: 3px solid red;
+    position:absolute;
+    z-index: 0;
+   
+     cursor: help;
+}
+
+#selector2{
+    z-index: 1;
+    position: relative;
+    border: 3px solid blue;
+    cursor: wait;
+}
+
+#selector3{
+    position: absolute;
+    z-index: 2; 
+    border: 3px solid green;
+    cursor: zoom-in;
+}
+
+.boton1{
+   word-spacing: 20px; 
+}
+
+.boton2{
+    word-spacing: 30px; 
+    
+}
+
+.boton3{
+    word-spacing: 40px; 
+    
+}
+
+.boton1:nth-of-type(1):hover {
+    background-color: red;
+  }
+  
+.boton2:nth-of-type(1):hover {
+    background-color: green;
+  }
+  
+.boton3:nth-of-type(1):hover {
+    background-color: blue;
+  }
